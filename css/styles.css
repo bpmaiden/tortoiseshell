@@ -87,11 +87,59 @@ h1#tagline {
 
 /* Service Benefits */
 
+#benefits {
+  max-width: 28rem;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid orange;
+  line-height: 1.4;
+  text-align: center;
+}
 
+div.named-icon {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid orchid;
+}
+
+div#ruler {
+  margin-right: 1rem;
+}
+
+div#truck {
+  margin-left: 1rem;
+}
+
+div#paper img {
+  width: 3.5rem;
+  height: auto;
+}
+
+div#ruler img {
+  width: 5rem;
+  height: auto;
+}
+
+div#truck img {
+  width: 5rem;
+  height: auto;
+}
 
 /* Additional Business Information */
 
+#additional-info {
+  max-width: 960px;
+  margin: 0 auto 5rem auto;
+  display: flex;
+  flex: none 1 35%;
+  border: 2px solid orange;
+}
 
+div#info-panel
 
 /* Footer */
 
