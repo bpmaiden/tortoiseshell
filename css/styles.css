@@ -131,15 +131,13 @@ div#truck img {
 
 #additional-info {
   width: 100%;
-  border: 2px solid red;
 }
 
 div#info-panel-wrap {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto 5rem auto;
   display: flex;
   justify-content: center;
-  border: 2px solid orange;
 }
 
 div.info-panel {
@@ -233,6 +231,40 @@ p#footer-business-name {
     right: auto;
   }
 
+  div#paper {
+    margin-left: 1rem;
+  }
+  
+  #additional-info {
+    width: 100%;
+  }
+  
+  div#info-panel-wrap {
+    max-width: 100%;
+    margin: 0;
+    display: block;
+  }
+  
+  div.info-panel {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  
+  div.info-panel h3 {
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  
+  div.info-panel p {
+    padding-left: 0.5rem;
+    font-size: 0.77rem;
+  }
+  
+  div.info-panel:first-child {
+    margin-right: 0;
+  }
+
   footer {
     justify-content: center;
   }
@@ -260,5 +292,20 @@ p#footer-business-name {
 
   h1#tagline {
     font-size: 1rem;
+  }
+
+  #benefits {
+    margin: 3.77rem auto 2.23rem auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div.named-icon {
+    height: auto;
+    justify-content: center;
+  }
+
+  div#paper, div#ruler, div#truck {
+    margin: 0 0 1.54rem 0;
   }
 }
